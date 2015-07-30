@@ -1,0 +1,62 @@
+body {
+	background-color: #FBFBFB;
+	font-family: Georgia, serif;
+	font-size: 21px;
+	color: #666666
+}
+main {
+	width: 800px;
+	margin: auto;
+	line-height: 1.5;
+}
+h1{
+	margin: 0;
+    font-size: 3em;
+    font-weight: normal;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+h2 {
+	border-top: solid 2px #9C9C9C;
+	padding-top: 15px;  
+	letter-spacing: 5px;
+	font-weight: normal;
+	background: -moz-linear-gradient(top, #F1ECEC 0%, transparent 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#F1ECEC), color-stop(100%,transparent));
+	background: -webkit-linear-gradient(top, #F1ECEC 0%,transparent 100%);
+	background: -o-linear-gradient(top, #F1ECEC 0%,transparent 100%);
+	background: -ms-linear-gradient(top, #F1ECEC 0%,transparent 100%);
+	background: linear-gradient(to bottom, #F1ECEC 0%,transparent 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d8d8d8', endColorstr='#00e0e0e0',GradientType=0 );
+}
+h3 {
+	position: relative;
+	letter-spacing: 1.5px;
+	margin-bottom: 0em; 
+}
+h3 span {
+	font-weight: normal;
+	font-style: italic;
+	position: absolute;
+	right: 850px;
+	white-space: nowrap;
+	letter-spacing: normal;
+}
+.contactinfo {
+	    margin: 0;
+}
+ul li {
+	list-style-type: disc;
+	list-style-position: inside;
+	margin-left: -1em;
+	padding-left: 1em;
+	text-indent: -1em;
+}
+ul {
+	margin-top: .5em;
+	margin-left: 0;
+	padding-left: 0;
+}
+p {
+	margin-top: .3em;
+}
