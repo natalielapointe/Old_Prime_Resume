@@ -1,8 +1,9 @@
 body {
-	background-color: #FBFBFB;
+	background-color: white;
+	background-image: url("arches.png");
 	font-family: Georgia, serif;
 	font-size: 21px;
-	color: #666666
+	color: #0047B2
 }
 main {
 	width: 800px;
@@ -59,4 +60,13 @@ ul {
 }
 p {
 	margin-top: .3em;
+}
+a {
+	color: #0047B2;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+	color: ;
 }
