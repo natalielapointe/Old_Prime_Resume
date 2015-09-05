@@ -1,9 +1,13 @@
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
 body {
 	background-color: white;
 	background-image: url("arches.png");
 	font-family: Georgia, serif;
 	font-size: 21px;
-	color: #0047B2
+	color: #0047B2;
 }
 main {
 	width: 800px;
@@ -16,6 +20,7 @@ h1{
     font-weight: normal;
     text-transform: uppercase;
     letter-spacing: 3px;
+    animation: fadein 2s;
 }
 h2 {
 	border-top: solid 2px #9C9C9C;
@@ -44,7 +49,9 @@ h3 span {
 	letter-spacing: normal;
 }
 .contactinfo {
-	    margin: 0;
+	margin: 0;
+	animation: fadein 2s;	
+
 }
 ul li {
 	list-style-type: disc;
@@ -65,8 +72,21 @@ a {
 	color: #0047B2;
 	text-decoration: none;
 }
-
 a:hover {
 	text-decoration: underline;
-	color: ;
+}
+.summary {
+	animation: fadein 2s .5s backwards;
+}
+.info {
+	animation: fadein 2s .5s backwards;
+}
+.job {
+	animation: fadein 2s 1s backwards;
+}
+.education {
+	animation: fadein 2s 1.5s backwards;
+}
+.volunteering {
+	animation: fadein 2s 2s backwards;
 }
