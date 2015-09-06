@@ -3,16 +3,20 @@
     to   { opacity: 1; }
 }
 body {
-	background-color: white;
+	background-color: #003855;
 	background-image: url("arches.png");
 	font-family: Georgia, serif;
-	font-size: 21px;
-	color: #0047B2;
+	font-size: 18px;
+	color: #00476B;
 }
 main {
-	width: 800px;
+	max-width: 800px;
 	margin: auto;
 	line-height: 1.5;
+	box-sizing: content-box;
+	background-color: white;
+	padding: 0 25px 0 25px;
+	background-image: url("arches.png");
 }
 h1{
 	margin: 0;
@@ -23,29 +27,26 @@ h1{
     animation: fadein 2s;
 }
 h2 {
-	border-top: solid 2px #9C9C9C;
 	padding-top: 15px;  
 	letter-spacing: 5px;
 	font-weight: normal;
-	background: -moz-linear-gradient(top, #F1ECEC 0%, transparent 100%);
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#F1ECEC), color-stop(100%,transparent));
-	background: -webkit-linear-gradient(top, #F1ECEC 0%,transparent 100%);
-	background: -o-linear-gradient(top, #F1ECEC 0%,transparent 100%);
-	background: -ms-linear-gradient(top, #F1ECEC 0%,transparent 100%);
-	background: linear-gradient(to bottom, #F1ECEC 0%,transparent 100%);
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d8d8d8', endColorstr='#00e0e0e0',GradientType=0 );
+	color: white;
+	background-color: #003f60;
+	max-width: 671px;
+    margin-left: -50px;
+    padding-left: 50px;
+    box-shadow: 3px 3px 0 3px #002e47; 
 }
 h3 {
 	position: relative;
-	letter-spacing: 1.5px;
+	letter-spacing: 1px;
 	margin-bottom: 0em; 
 }
 h3 span {
 	font-weight: normal;
 	font-style: italic;
 	position: absolute;
-	right: 850px;
-	white-space: nowrap;
+	right: 0px;
 	letter-spacing: normal;
 }
 .contactinfo {
@@ -69,7 +70,7 @@ p {
 	margin-top: .3em;
 }
 a {
-	color: #0047B2;
+	color: #00476B;
 	text-decoration: none;
 }
 a:hover {
@@ -89,4 +90,12 @@ a:hover {
 }
 .volunteering {
 	animation: fadein 2s 2s backwards;
+}
+.job2 {
+	animation: fadein 2s 1s backwards;
+}
+@media (max-width: 700px) {
+	h3 span {
+		position: static;
+	}
 }
