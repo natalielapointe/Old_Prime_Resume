@@ -60,6 +60,7 @@ ul li {
 	margin-left: -1em;
 	padding-left: 1em;
 	text-indent: -1em;
+	max-width: 671px;
 }
 ul {
 	margin-top: .5em;
@@ -68,6 +69,7 @@ ul {
 }
 p {
 	margin-top: .3em;
+	max-width: 671px;
 }
 a {
 	color: #00476B;
